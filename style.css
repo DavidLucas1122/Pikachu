@@ -3,3 +3,118 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #F5CF06;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+}
+
+header span{
+    width: 400px;
+    font-size: 32px;
+    color: #8E4106;
+    font-family: "Righteous";
+}
+
+main{
+    width: 100%;
+
+}
+
+.conteiner-pikachu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.conteiner-pikachu h1{
+    width: 400px;
+    font-size: 300px;
+    font-family: "Righteous";
+    color: #FFF;
+    position: absolute;
+    top: 263px;
+    left: 172px;
+}
+
+.conteiner-pikachu span{
+    color: #FFF;
+    width: 1462px;
+    font-family: "Righteous";
+    font-size: 400px;
+    opacity: 70%;
+    position: absolute;
+    top: 90px;
+    left: -11px;
+
+}
+
+.conteiner-pikachu .pikachu{
+    top: 292px;
+    left: 440px;
+    width: 559px;
+    height: 541px; 
+    position: absolute;
+}
+
+.conteiner-pikachu h2{
+    width: 530px;
+    height: 79px;
+    font-size: 64px;
+    color: #8E4106;
+    font-family: "Righteous";
+    position: absolute;
+    top: 629px;
+    left: 70px;
+}
+
+.conteiner-pikachu p{
+    width: 489px;
+    height: 75px;
+    font-size: 20px;
+    font-family: "Righteous";
+    position: absolute;
+    top: 708px;
+    left: 70px;
+    color: #8E4106;
+}
+
+.botao-download{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 70px;
+    background-color: #8E4106;
+    width: 411px;
+    height: 100px;
+    top: 683px;
+    left: 959px;
+    position: relative;
+}
+
+.botao-download p{
+    font-family: "Righteous";
+    width: 400px;
+    font-size: 48px;
+    color: #FFF;
+}
+
+.botao-download .icon-dwld{
+    width: 24px;
+    height: 24.62px;
+}
+
+footer{
+    top: 200px;
+    height: 526px;
+    
+}
